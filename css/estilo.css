@@ -57,6 +57,7 @@ h1 {
   display: none;
 }
 
+<<<<<<< HEAD
 .spanLogo:hover {
   transform: scale(120%);
 }
@@ -76,6 +77,8 @@ h1 {
 }
 
 
+=======
+>>>>>>> master
 /* CONTENIDO DEL SITIO */
 .contenedorMain {
   display: grid;
@@ -97,7 +100,11 @@ h2 {
   justify-items: center;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
   height: 470px;
+<<<<<<< HEAD
   transition: 0.3s;
+=======
+  transition: transform 0.3s;
+>>>>>>> master
 }
 
 .card__header {
@@ -141,6 +148,9 @@ h2 {
   border-radius: 10px;
   padding: 15px;
   text-align: center;
+}
+.card:hover{
+  transform:translateY(-15px)
 }
 
 .card:hover {
@@ -232,16 +242,20 @@ h2 {
   margin: 0 35px;
 }
 
+<<<<<<< HEAD
 .ul__li--footer a {
   margin: 0 15px;
 }
 
+=======
+>>>>>>> master
 /*MEDIA QUERIES  (mediano) */
 @media screen and (max-width:880px) {
   .spanLogo {
     display: block;
   }
 
+<<<<<<< HEAD
   .navMenu {
     grid-template-columns: repeat(2, 1fr);
     height: 40px;
@@ -272,6 +286,11 @@ h2 {
   .contenedorMain {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
+=======
+  header {
+    flex-direction: row;
+    padding: 22px 10px;
+>>>>>>> master
   }
 
   h1 {
@@ -318,6 +337,7 @@ h2 {
     display: inline-block;
   }
 
+<<<<<<< HEAD
   .navMenu {
     grid-template-columns: repeat(2, 1fr);
     height: 40px;
@@ -329,6 +349,8 @@ h2 {
   .contenedorNavBar {
     flex-direction: column;
   }
+=======
+>>>>>>> master
 
   .contenedorNavBar li {
     border-top: 1px solid orange;
