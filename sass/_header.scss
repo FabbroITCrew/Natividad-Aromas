@@ -4,37 +4,42 @@ header {
     padding: 30px 20px;
     margin: 0;
     font-size: x-large;
-
-    &__navMenu {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        justify-content: space-between;
-        transition: 0.4s;
-    }
-
-    &__navBar {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        padding: 10px;
-
-        & li a {
-            text-decoration: none;
-            color: white;
-            font-weight: bold;
-
-            &:hover {
-                background-color: rgba(0, 0, 0, 0.6);
-                color: #ddd;
-            }
-        }
-    }
 }
 
-ul {
+.navMenu {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-between;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
     list-style-type: none;
+    flex-wrap: wrap;
 }
 
-.spanLogo :hover {
-    transform: scale(170%);
+.navBar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.navBar li a:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ddd;
+}
+
+.spanLogo {
+    padding-left: 20px;
+
+    & :hover {
+        transform: scale(150%);
+    }
 }

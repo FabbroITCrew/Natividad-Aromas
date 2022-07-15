@@ -1,22 +1,24 @@
 footer {
     display: grid;
-grid-template-columns: 2fr 1fr;
-    background-color: #333;
+    grid-template-columns: 2fr 1fr;
+    background-image: linear-gradient(45deg,  #333, rgb(158, 104, 4));
+    // background-color: #333;
     color: #bbb;
     padding: 30px 20px;
     margin: 0;
-
 }
 
-h2{
+h2 {
     color: rgb(228, 225, 225);
+    padding-left: 20px;
 }
 
-.contenedorFooter{
+.contenedorFooter {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
-    transition: 0.5s;
+    transition: 0.3s;
+    list-style-type: none;
 }
 
 .contenedorFooter li:hover {
