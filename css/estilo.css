@@ -7,7 +7,7 @@ header {
 
 .navMenu {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: space-between; }
 
 .navBar {
@@ -17,8 +17,7 @@ header {
   padding: 0;
   justify-content: space-between;
   align-items: center;
-  list-style-type: none;
-  flex-wrap: wrap; }
+  list-style-type: none; }
 
 .navBar li a {
   text-decoration: none;
@@ -76,11 +75,12 @@ body {
   .container__video:hover {
     transform: translatex(10px); }
 
-h1 {
+.main__h1 {
   color: #555; }
 
-h2 {
-  color: #505; }
+.main__h2 {
+  color: #830;
+  padding-top: 20px; }
 
 p {
   line-height: 1.5;
