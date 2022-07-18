@@ -1,7 +1,7 @@
 header {
   background-color: #333;
   color: #bbb;
-  padding: 30px 20px;
+  padding: 30px 0px 30px 0px;
   margin: 0;
   font-size: x-large; }
 
@@ -25,10 +25,9 @@ header {
   font-weight: bold;
   padding: 10px 20px;
   transition: 0.3s; }
-
-.navBar li a:hover {
-  background-color: rgba(0, 0, 0, 0.6);
-  color: #ddd; }
+  .navBar li a:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ddd; }
 
 .spanLogo {
   padding-left: 20px; }
@@ -42,54 +41,119 @@ header {
 body {
   background-color: lightgoldenrodyellow; }
 
-.container {
-  max-width: 1200px;
-  justify-content: center;
-  margin: 0 auto;
-  padding: 20px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); }
-
-.container__invitar {
-  background-color: #ffaa66;
-  width: 35%;
-  padding: 25px;
-  margin: 25px;
-  border-radius: 10px;
-  justify-content: center;
-  transition: background-color 0.3s;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8); }
-  .container__invitar :hover {
-    color: #ffaa66;
-    background-color: #555; }
-  .container__invitar a {
-    font-weight: bold;
-    text-decoration: none;
-    color: #555; }
-
-.container__video {
-  justify-self: center;
-  border-radius: 10px;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
-  transition: transform 0.3s; }
-  .container__video:hover {
-    transform: translatex(10px); }
-
 .main__h1 {
   color: #555; }
 
 .main__h2 {
   color: #830;
-  padding-top: 20px; }
+  padding-top: 20px;
+  font-size: x-large; }
 
 p {
   line-height: 1.5;
   color: sienna; }
 
+.containerInvitar {
+  margin-top: 25px; }
+  .containerInvitar a {
+    background-color: sienna;
+    color: wheat;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
+    text-decoration: none; }
+    .containerInvitar a:hover {
+      color: wheat;
+      background-color: #777; }
+
+.containerVideo {
+  justify-self: center;
+  border-radius: 10px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
+  transition: transform 0.3s;
+  margin-bottom: 20px; }
+  .containerVideo:hover {
+    transform: translatex(10px); }
+
+/* CONTENEDOR MAIN */
+.container {
+  max-width: 1200px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px; }
+
+.containerMain {
+  margin-top: 40px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px; }
+
+.containerCaja {
+  margin-top: 40px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  justify-content: center; }
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s; }
+  .card:hover {
+    transform: translateY(-15px); }
+  .card__title {
+    margin-bottom: 20px;
+    color: sienna;
+    font-weight: bold;
+    font-size: x-large; }
+  .card__description {
+    margin-bottom: 40px; }
+  .card__precio {
+    background-color: sienna;
+    color: wheat;
+    font-weight: bold;
+    width: 50%;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    justify-content: center; }
+
+.card__header {
+  position: relative; }
+  .card__header img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px; }
+  .card__header--strong {
+    text-transform: uppercase;
+    font-weight: bold; }
+  .card__header small {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    padding: 8px;
+    position: absolute;
+    right: 0;
+    border-bottom-left-radius: 10px; }
+
+table {
+  width: 90%; }
+
+.form__caja {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  width: 90%; }
+
 footer {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  background-image: linear-gradient(45deg, #333, #9e6804);
+  background-image: linear-gradient(45deg, #333, sienna);
   color: #bbb;
   padding: 30px 20px;
   margin: 0; }

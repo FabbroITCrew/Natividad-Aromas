@@ -1,7 +1,7 @@
 header {
     background-color: #333;
     color: #bbb;
-    padding: 30px 20px;
+    padding: 30px 0px 30px 0px;
     margin: 0;
     font-size: x-large;
 }
@@ -28,12 +28,14 @@ header {
     font-weight: bold;
     padding: 10px 20px;
     transition: 0.3s;
+   
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.6);
+        color: #ddd;
+    }
+    
 }
 
-.navBar li a:hover {
-    background-color: rgba(0, 0, 0, 0.6);
-    color: #ddd;
-}
 
 .spanLogo {
     padding-left: 20px;

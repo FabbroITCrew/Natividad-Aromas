@@ -32,26 +32,21 @@
     </header>
     <main>
         <h2 class="main__h2">Formulario de Contacto y consultas</h2>
-        <div class="container">
-            
-            <div class="container-sm p-3">
-                <form action="" method="post" enctype="text/plain">
-                    <form class="row gx-3 gy-2 align-items-center">
-                        <div class="col-sm-3">
-                            <label class="visually-hidden" for="specificSizeInputName">Name</label>
-                            <input type="text" class="form-control" id="specificSizeInputName" placeholder="Nombre...">
+        <section class="container">
+            <div class="containerMain">
+                <article class="card">
+                    <form action="" method="post" enctype="text/plain">
+                        <div class="form__caja">
+                            <label for="specificSizeInputName">Nombre</label>
+                            <input type="text" placeholder="Nombre..." />
                         </div>
-                        <div class="col-sm-3">
-                            <label class="visually-hidden" for="specificSizeInputGroupUsername">Username</label>
-                            <div class="input-group">
-                                <div class="input-group-text">@</div>
-                                <input type="text" class="form-control" id="specificSizeInputGroupUsername"
-                                    placeholder="Correo...">
-                            </div>
+                        <div class="form__caja">
+                            <label for="specificSizeInputGroupUsername">Correo</label>
+                            <input type="text" placeholder="Correo..." />
                         </div>
-                        <div class="col-sm-3">
-                            <label class="visually-hidden" for="specificSizeSelect">Preference</label>
-                            <select class="form-select" id="specificSizeSelect">
+                        <div class="form__caja">
+                            <label for="specificSizeSelect">Preference</label>
+                            <select>
                                 <option selected>Localidad...</option>
                                 <option value="1">Wilde</option>
                                 <option value="2">Avellaneda</option>
@@ -60,23 +55,23 @@
                                 <option value="5">Otro lugar</option>
                             </select>
                         </div>
-                        <div class="col-auto">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
-                                <label class="form-check-label" for="autoSizingCheck2">
-                                    Suscripción
-                                </label>
-                            </div>
+                        <div class="form__caja">
+                            <input type="checkbox"/>
+                            <label for="autoSizingCheck2">Suscripción</label>
                         </div>
-                        <div class="col-auto pt-4 m-2">
-                            <button type="submit" class="btn btn-dark">Enviar</button>
+                        <div class="form__caja">
+                            <button type="submit">Enviar</button>
                         </div>
-                        <div class="col-auto">
-                            <button type="reset" class="btn btn-dark">Limpiar formulario</button>
+                        <div class="form__caja">
+                            <button type="reset">Limpiar formulario</button>
                         </div>
                     </form>
+                </article>
+                <iframe width="320" height="440" src="https://www.instagram.com/p/CfR7nOKgXM7/embed"
+                title="Instagram Natividad Aromas" frameborder="0">Tu navegador no visualiza iframes. Por favor
+                actualiza el navegador</iframe>
             </div>
-        </div>
+        </section>
     </main>
     <footer>
         <h2>@2022 Desing by Fabbro</h2>
