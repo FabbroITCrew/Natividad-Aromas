@@ -1,6 +1,5 @@
 header {
-    background-color: #333;
-    color: #bbb;
+    background-color: $fondoHeader;
     padding: 30px 0px 30px 0px;
     margin: 0;
     font-size: x-large;
@@ -8,7 +7,7 @@ header {
 
 .navMenu {
     display: grid;
-    grid-template-columns:repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
 }
 
@@ -20,22 +19,20 @@ header {
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
-}
 
-.navBar li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    padding: 10px 20px;
-    transition: 0.3s;
-   
-    &:hover {
-        background-color: rgba(0, 0, 0, 0.6);
-        color: #ddd;
+    & li a {
+        text-decoration: none;
+        color: wheat;
+        font-weight: bold;
+        padding: 10px 20px;
+        transition: 0.3s;
+
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #822;
+        }
     }
-    
 }
-
 
 .spanLogo {
     padding-left: 20px;

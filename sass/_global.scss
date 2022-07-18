@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: lightgoldenrodyellow;
+    background-color: $fondoMain;
 }
 
 .main__h1 {
@@ -12,21 +12,21 @@ body {
 }
 
 .main__h2 {
-    color: #830;
+    color: $colorSienna;
     padding-top: 20px;
     font-size: x-large;
 }
 
 p {
     line-height: 1.5;
-    color: sienna;
+    color: $colorSienna;
 }
 
 .containerInvitar {
     margin-top: 25px;
 
     a {
-        background-color: sienna;
+        background-color: $colorSienna;
         color: wheat;
         padding: 15px;
         border-radius: 10px;
@@ -94,7 +94,7 @@ p {
 
     &__title {
         margin-bottom: 20px;
-        color: sienna;
+        color: $colorSienna;
         font-weight: bold;
         font-size: x-large;
     }
@@ -104,7 +104,7 @@ p {
     }
 
     &__precio {
-        background-color: sienna;
+        background-color: $colorSienna;
         color: wheat;
         font-weight: bold;
         width: 50%;
