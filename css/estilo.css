@@ -1,6 +1,5 @@
 header {
   background-color: #333;
-  color: #bbb;
   padding: 30px 0px 30px 0px;
   margin: 0;
   font-size: x-large; }
@@ -18,16 +17,14 @@ header {
   justify-content: space-between;
   align-items: center;
   list-style-type: none; }
-
-.navBar li a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  padding: 10px 20px;
-  transition: 0.3s; }
-  .navBar li a:hover {
-    background-color: rgba(0, 0, 0, 0.6);
-    color: #ddd; }
+  .navBar li a {
+    text-decoration: none;
+    color: wheat;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: 0.3s; }
+    .navBar li a:hover {
+      background-color: rgba(228, 209, 209, 0.6); }
 
 .spanLogo {
   padding-left: 20px; }
@@ -45,7 +42,7 @@ body {
   color: #555; }
 
 .main__h2 {
-  color: #830;
+  color: sienna;
   padding-top: 20px;
   font-size: x-large; }
 
@@ -84,6 +81,7 @@ p {
   margin: 0 auto;
   padding: 20px; }
 
+/*CONTENEDOR INDEX */
 .containerMain {
   margin-top: 40px;
   padding: 0;
@@ -91,6 +89,7 @@ p {
   grid-template-columns: repeat(2, 1fr);
   gap: 50px; }
 
+/* CONTENEDOR GLOBAL */
 .containerCaja {
   margin-top: 40px;
   padding: 0;
@@ -100,7 +99,7 @@ p {
   justify-content: center; }
 
 .card {
-  background-color: #fff;
+  background-color: #eeebbd;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
@@ -142,6 +141,7 @@ p {
     right: 0;
     border-bottom-left-radius: 10px; }
 
+/*RESTO DE LAS PAGINAS */
 table {
   width: 90%; }
 
@@ -171,3 +171,37 @@ h2 {
 
 .contenedorFooter li:hover {
   transform: scale(120%); }
+
+@media (max-width: 800px) {
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px; }
+  .containerCaja {
+    margin-top: 30px;
+    padding: 0;
+    grid-template-columns: repeat(2, 1fr); }
+  .navBar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: 0.3s;
+    font-size: large; } }
+
+@media (max-width: 620px) {
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px; }
+  .containerCaja {
+    margin-top: 30px;
+    padding: 0;
+    grid-template-rows: repeat(3, 1fr); }
+  .navBar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    padding: 0px 2px;
+    transition: 0.3s;
+    font-size: small; } }
