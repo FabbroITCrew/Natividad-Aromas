@@ -1,9 +1,8 @@
 @media (max-width: 800px) {
-
     .container {
         max-width: 700px;
         margin: 0 auto;
-        padding: 10px;
+        padding: 20px;
     }
 
     .containerCaja {
@@ -14,7 +13,6 @@
 
     .navBar li a {
         text-decoration: none;
-        color: $colorA;
         font-weight: bold;
         padding: 10px 10px;
         transition: 0.3s;
@@ -23,11 +21,10 @@
 }
 
 @media (max-width: 620px) {
-
     .container {
         max-width: 600px;
         margin: 0 auto;
-        padding: 10px;
+        padding: 20px;
     }
 
     .containerCaja {
@@ -38,7 +35,6 @@
 
     .navBar li a {
         text-decoration: none;
-        color: $colorA;
         font-weight: normal;
         padding: 10px 10px;
         transition: 0.3s;

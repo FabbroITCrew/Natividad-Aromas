@@ -1,5 +1,5 @@
 {
-  "name": "desafio13",
+  "name": "desafio15",
   "version": "1.0.0",
   "description": "Proyecto Natividad Aromas y CoderHouse",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FabbroITCrew/desafio13.git"
+    "url": "git+https://github.com/FabbroITCrew/desafio15.git"
   },
   "author": "Fabbro",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FabbroITCrew/desafio13/issues"
+    "url": "https://github.com/FabbroITCrew/desafio15/issues"
   },
-  "homepage": "https://github.com/FabbroITCrew/desafio13#readme",
+  "homepage": "https://github.com/FabbroITCrew/desafio15#readme",
   "devDependencies": {
     "node-sass": "^7.0.1"
   },
