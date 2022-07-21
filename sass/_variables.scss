@@ -1,11 +1,26 @@
+/* COLORES */
 $fondoHeader: #333;
-$colorA: wheat;
-// $colorHeader--A--Hover: #ccc;
-
-
 $fondoMain: lightgoldenrodyellow;
-$H1Main: #555;
 
-$colorSienna: sienna;
+$colorLink: wheat;
+$colorLinkHover: rgba(228, 209, 209, 0.6);
+
+
+$H1Main: #555;
+$H4Footer: rgb(228, 225, 225);
+$colorTipoMarron: sienna;
+$colorTipoMarronOtro: rgb(70, 46, 34) ;
+
+
+$colorGrisClaro: #777;
+$colorGrisOscuro: #444;
 
 $cajas: rgb(238, 235, 189);
+
+/* TAMAÑOS */
+$tamanomediano: 20px;
+$tamanochico: $tamanomediano - 2;
+$tamanogrande: $tamanomediano + 5;
+
+/* EFECTOS */
+$transicion: all 0.3s; 

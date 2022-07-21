@@ -1,43 +1,32 @@
 @media (max-width: 800px) {
-    .container {
-        max-width: 700px;
-        margin: 0 auto;
-        padding: 20px;
-    }
 
     .containerCaja {
-        margin-top: 30px;
-        padding: 0;
         grid-template-columns: repeat(2, 1fr);
     }
 
     .navBar li a {
         text-decoration: none;
         font-weight: bold;
-        padding: 10px 10px;
-        transition: 0.3s;
-        font-size: large;
+        font-size: $tamanomediano;
     }
 }
 
-@media (max-width: 620px) {
-    .container {
-        max-width: 600px;
-        margin: 0 auto;
-        padding: 20px;
+@media (max-width: 660px) {     //QUIEBRO ACA PORQUE SE ROMPE EL BOTON EN EL INDEX
+
+    .containerMain {
+        margin-top: 35px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
     }
 
     .containerCaja {
-        margin-top: 30px;
-        padding: 0;
+        grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(3, 1fr);
     }
 
     .navBar li a {
         text-decoration: none;
         font-weight: normal;
-        padding: 10px 10px;
-        transition: 0.3s;
-        font-size: large;
+        font-size: $tamanochico;
     }
 }

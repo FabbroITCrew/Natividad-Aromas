@@ -1,8 +1,8 @@
 header {
     background-color: $fondoHeader;
-    padding: 30px 0px 30px 0px;
+    padding: 30px;
     margin: 0;
-    font-size: x-large;
+    font-size: $tamanogrande;
 }
 
 .navMenu {
@@ -22,14 +22,15 @@ header {
 
     & li a {
         text-decoration: none;
-        color: $colorA;
+        color: $colorLink;
         font-weight: bold;
         padding: 10px 20px;
-        transition: 0.3s;
+       
 
         &:hover {
-            background-color: rgba(228, 209, 209, 0.6);
-            
+            opacity: 0.8;
+            background-color: $colorLinkHover;
+            transition: $transicion;
         }
     }
 }

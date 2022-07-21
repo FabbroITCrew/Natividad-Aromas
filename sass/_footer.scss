@@ -1,25 +1,26 @@
 footer {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    background-image: linear-gradient(45deg,  #333, $colorSienna);
-    color: #bbb;
+    background-image: linear-gradient(45deg,  $fondoHeader, $colorTipoMarron);
+    color: $colorGrisClaro;
     padding: 30px 20px;
     margin: 0;
 }
 
-h2 {
-    color: rgb(228, 225, 225);
-    padding-left: 20px;
+h4 {
+    color: $H4Footer;
+    padding: 10px 20px;
 }
 
 .contenedorFooter {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
-    transition: 0.3s;
+    transition: $transicion;
     list-style-type: none;
+
+    & li:hover {
+        transform: scale(120%);
+    }
 }
 
-.contenedorFooter li:hover {
-    transform: scale(120%);
-}
