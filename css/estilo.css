@@ -2,6 +2,7 @@
 /* COLORES */
 /* TAMAÑOS */
 /* EFECTOS */
+/*  MIXIN */
 header {
   background-color: #333;
   padding: 30px;
@@ -108,6 +109,7 @@ p {
 .card__header {
   position: relative; }
   .card__header img {
+    height: 0;
     width: 100%;
     border-radius: 10px;
     margin-bottom: 20px; }
@@ -143,8 +145,9 @@ p {
     background-color: sienna; }
 
 /*RESTO DE LAS PAGINAS */
-.base, table, .form__caja {
-  width: 90%;
+.baseResto, table, .form__caja {
+  height: 0;
+  width: 90px;
   padding-bottom: 10px;
   margin-bottom: 10px; }
 

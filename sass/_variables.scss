@@ -24,3 +24,9 @@ $tamanogrande: $tamanomediano + 5;
 
 /* EFECTOS */
 $transicion: all 0.3s; 
+
+/*  MIXIN */ 
+@mixin size ($heigth, $width){
+    height: $heigth;
+    width: $width;
+ }
