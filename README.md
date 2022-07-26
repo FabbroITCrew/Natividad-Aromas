@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # desafio15
 Natividad Aromas:
 - SASS
@@ -7,3 +8,12 @@ Natividad Aromas:
 - uso de @extend
 - uso de @mixin
 - uso de maps
+=======
+# Natividad-Aromas
+
+*página de sintaxis de README*
+https://www.markdownguide.org
+
+22-07-11_
+Actualización de master con Bootstrap
+>>>>>>> 0f933b05a63cba1f5a9eda6fa5ab35019e4d405a
